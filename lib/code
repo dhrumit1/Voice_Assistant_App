@@ -1,0 +1,74 @@
+// if (await speechToText.hasPermission &&
+              //     speechToText.isNotListening) {
+              //   await startListening();
+              //   _isListening = true;
+              //   setState(() {
+                  
+              //   });
+              // } else if (speechToText.isListening) {
+              //   final speech = await openAIservic.chatGPTAPI(lastWords);
+              //   print(speech);
+              //   if (speech.contains('https')) {
+              //     generateImagesUrl = speech;
+              //     generatedContent = null;
+              //     setState(() {});
+              //   } else {
+              //     generateImagesUrl = null;
+              //     generatedContent = speech;
+              //     setState(() {});
+              //     // await systemSpeak(speech);
+              //   }
+              //   await stopListening();
+              //   _isListening = true;
+              //   setState(() {
+                  
+              //   });
+              // } else {
+              //   initSpeechToText();
+              // }
+
+
+
+        //       child: GestureDetector(
+        //   onTapDown: (details) async {
+        //     if (await speechToText.hasPermission &&
+        //           speechToText.isNotListening) {
+        //         await startListening();
+        //         setState(() {
+                  
+        //       });
+        //     }
+        //     else{
+        //       initSpeechToText();
+        //     }
+        //     setState(() {
+        //       _isListening = true;
+        //     });
+        //   },
+        //   onTapUp: (details) async {
+        //     await stopListening();
+        //     final speech = await openAIservic.chatGPTAPI(lastWords);
+        //         print(speech);
+        //         if (speech.contains('https')) {
+        //           generateImagesUrl = speech;
+        //           generatedContent = null;
+        //           setState(() {});
+        //         } else {
+        //           generateImagesUrl = null;
+        //           generatedContent = speech;
+        //           setState(() {});
+        //           // await systemSpeak(speech);
+        //         }
+        //         setState(() {
+                  
+        //         });
+        //     setState(() {
+        //       _isListening = false;
+        //     });
+        //   },
+        //     child: CircleAvatar(
+        //       backgroundColor: Colors.blue,
+        //       radius: 30,
+        //       child: Icon(_isListening ? Icons.mic : Icons.mic_none , color: Colors.white,)),
+        //   ),
+        // ),
